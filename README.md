@@ -18,7 +18,7 @@ Clone or download this repository (big green button above), and copy the content
 python -c 'import matplotlib; print(matplotlib.get_configdir())'
 ```
 
-Create a `stylelib` subdirectory of that directory if it isn't already there, and copy the contents of the styles directory into the `stylelib` directory. Make sure that the individual files get copied, rather than the `stylelib` folder becoming a subdirectory of the `stylelib` directory.
+Create a `stylelib` subdirectory of that directory if it isn't already there, and copy the contents of the styles directory into the `stylelib` directory. Make sure that the individual files get copied, rather than the `styles` folder becoming a subdirectory of the `stylelib` directory.
 
 ## Use
 
