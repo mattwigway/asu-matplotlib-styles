@@ -14,7 +14,7 @@ axes.edgecolor: black
 axes.labelcolor: black
 # Cycle through the ASU colors - move gold to the end because it does not provide sufficient contrast over white
 # per the WebAIM contrast checker. A lot of the others don't either, but they are better.
-axes.prop_cycle: cycler('color', ['8C1D40', 'FF7F32', '78BE20', '00A3E0', 'FFC627'])
+axes.prop_cycle: cycler('color', ['8C1D40', 'FF7F32', '78BE20', '00A3E0', '5C6670', 'FFC627'])
 
 xtick.color: black
 ytick.color: black
