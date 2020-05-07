@@ -29,3 +29,7 @@ plt.style.use('asu-dark')
 ```
 
 and all future plots in that session will use the `asu-dark` color scheme.
+
+## License
+
+This is under a [CC0 license](https://creativecommons.org/share-your-work/public-domain/cc0/), which means I waive all my copyright interest in this work. The ASU Brand Guide is ASU property. Please don't use these styles to imply affiliations with ASU that don't exist.
