@@ -1,0 +1,31 @@
+# Make charts in ASU colors/styles
+# see https://brandguide.asu.edu/ (only open to ASU affiliates)
+# This is a chart with a black background that will fit well on black-background ASU Powerpoint slides
+# Author: Matthew Wigginton Conway <mwconway@asu.edu>
+# Last update: 2020-05-07
+
+lines.color: white
+patch.edgecolor: white
+
+text.color: white
+
+axes.facecolor: black
+axes.edgecolor: white
+axes.labelcolor: white
+# Cycle through the ASU colors - first maroon and gold, then the "secondary" colors
+axes.prop_cycle: cycler('color', ['8C1D40', 'FFC627', '78BE20', '00A3E0', 'FF7F32', '5C6670'])
+
+xtick.color: white
+ytick.color: white
+
+grid.color: white
+
+figure.facecolor: black
+figure.edgecolor: black
+
+savefig.facecolor: black
+savefig.edgecolor: black
+
+# Arial is the approved free font
+font.family: sans-serif
+font.sans-serif: Arial
