@@ -6,7 +6,7 @@ import os.path
 
 def create_plot (style):
     # make darn sure we're using the styles from the repo, and not the styles that may be installed on the system
-    plt.style.use(os.path.join(os.path.dirname(__file__), f'{style}.mplstyle'))
+    plt.style.use(os.path.join(os.path.dirname(__file__), 'styles', f'{style}.mplstyle'))
     plt.subplots(1, 3, figsize=(12, 4))
 
     # line plot
@@ -39,4 +39,5 @@ def create_plot (style):
     plt.savefig(f'examples/{style}.png', dpi=300)
 
 create_plot('asu-dark')
+create_plot('asu-light')
 

@@ -10,6 +10,12 @@ Eventually there will be multiple styles with different backgrounds available. F
 
 ![asu-dark](examples/asu-dark.png)
 
+### `asu-light`
+
+![asu-light](examples/asu-light.png)
+
+The ASU Gold is included later in the cycle of standard colors due to contrast issues between the gold and white background—other colors are more visible on the white background.
+
 ## Installation
 
 Clone or download this repository (big green button above), and copy the contents of the `styles` folder into the `stylelib` subfolder of your `matplotlib` configuration directory (you may need to create the `stylelib` directory). For me, this is `~/.matplotlib/stylelib`. You can find your configuration directory by running
